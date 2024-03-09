@@ -122,7 +122,3 @@ def main():
     result = init()
     final = hillClimbing(result, height, eneighbor, max_fail=1000)
     print(__str__(final))
-
-
-if __name__ == "__main__":
-    main()
